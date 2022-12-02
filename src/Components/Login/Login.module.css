@@ -1,0 +1,11 @@
+.photoBg{
+    height: 90vh ;
+    background-image: url('../../Imgs/register.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.log{
+    background-color: rgba(11, 12, 42,.8) !important;
+
+}

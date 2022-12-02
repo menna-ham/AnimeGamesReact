@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body{
+    font-family: 'Syne Mono', monospace;
+    /* font-family: 'Sirin Stencil', cursive; */
+    background-color: #0b0c2a !important;
+    color: white !important;
+}
+.grayTxt{
+    color: #aaa;
+}
+.game{
+    background-color: #070720 !important;
+    height: 100%;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.game:hover{
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+}
+.dropdown-menu{
+    display: none;
+}
+.dropdown{
+   transition: .5s all;
+   -webkit-transition: .5s all;
+   -moz-transition: .5s all;
+   -ms-transition: .5s all;
+   -o-transition: .5s all;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.sortHome{
+  height:7%
+}
+
+.footer{
+  background-color: #070720;
+}
+
+.notFound{
+  height: 68vh;
+}
+/* Navigation Style*/
+
+.navigationButtons {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+   
+  .navigationButtons a {
+    padding: 10px;
+    margin: 5px ;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220,53,69)red;
+    color: rgb(220,53,69);
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+   
+  .navigationButtons a:hover {
+    color: white;
+    background-color: rgb(220,53,69);
+  }
+   
+  .navigationActive a {
+    color: white;
+    background-color: rgb(220,53,69);
+
+  }
+   
+  .navigationDisabled a {
+    color: white;
+    background-color: rgb(220,53,69);
+  }
+
+
+  @media (max-width: 767.98px){
+    .navigationButtons{
+        justify-content: center;
+    }
+    .navigationButtons li{
+        margin-bottom: 20px;
+    }
+    .sortHome{
+      height:40%
+    }
+
+  }
+  @media (max-width: 991.98px){
+    .sortHome{
+      height:50%
+    }
+  }
+
+  /* .nav-link:hover{
+    color: rgb(220,53,69) !important;
+  } */

@@ -1,0 +1,9 @@
+.info{
+    background-color: rgba(11, 12, 42,.8) !important;
+}
+.see{
+    cursor: pointer !important;
+}
+.textGraybold{
+    font-weight: bold;
+}

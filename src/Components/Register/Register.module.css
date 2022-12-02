@@ -1,0 +1,20 @@
+
+.lightBg{
+    background-color: #070720 !important;
+}
+.reg{
+    background-image: url('http://routeegypt.com/GameOver/gaming.ebaf2ffc84f4451d.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.HeightSec{
+    height: 90vh !important;
+}
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+label{
+    color: white;
+}

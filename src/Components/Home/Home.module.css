@@ -1,0 +1,7 @@
+.homeBg{
+    background-image: url('http://routeegypt.com/GameOver/paladins.b44d33d6e7ee1ba8.png');
+    height: 45vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
