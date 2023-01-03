@@ -2,6 +2,7 @@ import React from 'react'
 import ReactPaginate from 'react-paginate'
 
 export default function Pagination( {totalPages, changePage}) {
+  
   return (
     <>
           <div className='w-100 '>

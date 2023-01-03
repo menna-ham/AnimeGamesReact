@@ -141,14 +141,10 @@ export default function Categories() {
 
           <div className="py-5 w-75 m-auto">
           <Pagination
-                  totalPages={totalPages}
-                  changePage={changePage}
-                  containerClassName={"navigationButtons"}
-                  previousLinkClassName={"previousButton"}
-                  nextLinkClassName={"nextButton"}
-                  disabledClassName={"navigationDisabled"}
-                  activeClassName={"navigationActive"} 
+                  y
         />
+
+          
           </div>
       </div>
     </>
