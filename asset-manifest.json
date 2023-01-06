@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AnimeGamesReact/static/css/main.c3ea3da2.css",
-    "main.js": "/AnimeGamesReact/static/js/main.58dd6b89.js",
+    "main.js": "/AnimeGamesReact/static/js/main.900e6baf.js",
     "static/js/787.bdc2d5e5.chunk.js": "/AnimeGamesReact/static/js/787.bdc2d5e5.chunk.js",
     "static/media/logo.png": "/AnimeGamesReact/static/media/logo.548dc5719c2345c22eef.png",
     "static/media/register.jpg": "/AnimeGamesReact/static/media/register.5a5347fac4a72e0a3a2a.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/AnimeGamesReact/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/AnimeGamesReact/index.html",
     "main.c3ea3da2.css.map": "/AnimeGamesReact/static/css/main.c3ea3da2.css.map",
-    "main.58dd6b89.js.map": "/AnimeGamesReact/static/js/main.58dd6b89.js.map",
+    "main.900e6baf.js.map": "/AnimeGamesReact/static/js/main.900e6baf.js.map",
     "787.bdc2d5e5.chunk.js.map": "/AnimeGamesReact/static/js/787.bdc2d5e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3ea3da2.css",
-    "static/js/main.58dd6b89.js"
+    "static/js/main.900e6baf.js"
   ]
 }
