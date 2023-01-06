@@ -47,7 +47,7 @@ function App() {
   let routes = createBrowserRouter([
     {path:'/',element:<MainLayout userData={userData} LogOut={LogOut}/>,
     children:[
-      {index:true,element:<ProtectRouting><Home/></ProtectRouting>},
+      {path:'/home',element:<ProtectRouting><Home/></ProtectRouting>},
       {path:'/all',element:<ProtectRouting><All/></ProtectRouting>},
       {path:'/categories/:category',element:<ProtectRouting><Categories/></ProtectRouting>},
       {path:'/platform/:platform',element:<ProtectRouting><Platform/></ProtectRouting>},

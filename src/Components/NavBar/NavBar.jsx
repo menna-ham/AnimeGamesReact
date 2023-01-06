@@ -10,7 +10,7 @@ export default function NavBar({userData,LogOut}) {
   <div className="container">
     <div className='d-flex justify-content-between'>
 
-    <Link className={"navbar-brand "} to={'/'}> 
+    <Link className={"navbar-brand "} to={'/home'}> 
     <span className={styles.navlogo}>
     <img src={logo} className={styles.Logo} /> <span className='fs-4'>Ani<span className='text-danger'>me</span></span>
     </span>
@@ -26,7 +26,7 @@ export default function NavBar({userData,LogOut}) {
       {userData!=null?  
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className={({isActive})=>isActive? 'nav-link active bg-danger rounded-3 text-bold text-uppercase': 'nav-link active'} aria-current="page" to={'/'}>Home</NavLink>
+          <NavLink className={({isActive})=>isActive? 'nav-link active bg-danger rounded-3 text-bold text-uppercase': 'nav-link active'} aria-current="page" to={'/home'}>Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className={({isActive})=>isActive? 'nav-link active bg-danger rounded-3 text-bold text-uppercase': 'nav-link active'} to={'/all'}>All</NavLink>
